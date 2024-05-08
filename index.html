@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuri Calculator Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Zuri Basic Calculator</h1>
+
+    <p>
+      <a href="" target="_blank"
+        >Link to the repository</a
+      >
+    </p>
+
+    <div class="calculator-container">
+      <div class="calculator">
+        <div class="display">
+          <input type="text" class="displayBox" name="display" />
+        </div>
+        <table>
+          <tr>
+            <td><button class="btn-num" data-num="7">7</button></td>
+            <td><button class="btn-num" data-num="8">8</button></td>
+            <td><button class="btn-num" data-num="9">9</button></td>
+            <td><button style="font-size: 55px;" class="btn-opr" data-num="/">÷</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-num" data-num="4">4</button></td>
+            <td><button class="btn-num" data-num="5">5</button></td>
+            <td><button class="btn-num" data-num="6">6</button></td>
+            <td><button class="btn-opr" style="font-size: 38px;" data-num="*">X</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-num" data-num="1">1</button></td>
+            <td><button class="btn-num" data-num="2">2</button></td>
+            <td><button class="btn-num" data-num="3">3</button></td>
+            <td><button class="btn-opr" data-num="-">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn-num" data-num="0">0</button></td>
+            <td><button class="btn-num" data-num=".">.</button></td>
+            <td><button class="btn-opr" data-num="+">+</button></td>
+            <td><button class="orange-btn btn-equal">=</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
